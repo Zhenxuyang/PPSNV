@@ -4,12 +4,12 @@
 
 名称|实现方法|备注
 -----|-----|-----
-PolyPhen-2||
-SIFT||
-FatHMM||
-MutationTaster-2||
+PolyPhen-2|Naive Bayes|
+SIFT|Alignment score|
+FatHMM|Hidden Markov|
+MutationTaster-2|Bayes|
 MutationAssessor||
-CADD||
+CADD|SVM|
 LRT||
 phyloP||
 GERP++||
@@ -24,6 +24,7 @@ VariBench| 从PhenCode、IDBases 、LSDBS数据库中获取的19335个致病错�
 predictSNP|从SwissProt, HGMD, HumVar, Humsavar, dbSNP, PhenCode, IDbases, and 16 individual locus-specific databases中获取的致病突变 | 从同样的数据库中获取的非致病突变|<http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003440>
 SwissVar| 在病人和文献中发现和疾病关联| 没有被报告过和疾病关联的变异| <http://swissvar.expasy.org/cgi-bin/swissvar/documentation>
 
+文献Grimm 2014筛选后的数据集
 
 Datasets | Deleterious variants(D) | Neutral variants (N) | Total | Ratio (D:Total) | Tools potentially trained on data (fully or partly) | Removed variants overlapping with
 -----|-----|-----|-----|-----|-----|-----
