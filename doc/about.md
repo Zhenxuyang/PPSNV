@@ -37,5 +37,5 @@ SwissVarSelected | 4,526 | 8,203 | 12,729 | 0.36 |  MT2 | CADD training data, Hu
 
 CADD使用的特征
 
-![img](.\img\features_cadd1.png)
-![img](.\img\features_cadd2.png)
+![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_cadd1.png)
+![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_cadd1.png)
