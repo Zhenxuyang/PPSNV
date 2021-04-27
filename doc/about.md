@@ -41,3 +41,7 @@ CADD使用的特征
 
 ![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_cadd1.png)
 ![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_cadd2.png)
+
+PolyPhen2使用的特征
+![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_polyp2.png)
+
