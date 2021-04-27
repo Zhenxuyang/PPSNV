@@ -13,6 +13,7 @@ CADD|SVM|
 LRT||
 phyloP||
 GERP++||
+DeepSea||
 
 ## 数据集
 
