@@ -11,9 +11,10 @@ MutationTaster-2|Bayes|
 MutationAssessor||
 CADD|SVM|
 LRT||
-phyloP||
+phyloP|Bayes|
+polyPhen2|Bayes|
 GERP++||
-DeepSea||
+DeepSea|DNN|
 
 ## 数据集
 
