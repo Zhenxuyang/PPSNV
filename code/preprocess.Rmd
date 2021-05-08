@@ -21,12 +21,10 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 ```{r}
 if(!requireNamespace("BIocManager", quietly = TRUE))
   install.packages("BioManager")
-
-BiocManager::install("BSgenome")
-```
-
-```{r}
-BiocManager::install("BSgenome.Hsapiens.UCSC.hg19")
+if(!require("BSgenome"))
+  BiocManager::install("BSgenome")
+if(!require("BSgenome.Hsapiens.UCSC.hg19"))
+  BiocManager::install("BSgenome.Hsapiens.UCSC.hg19")
 ```
 
 2. 载入BSgenome
@@ -44,9 +42,22 @@ ls("package:BSgenome.Hsapiens.UCSC.hg19")
 genome <- BSgenome.Hsapiens.UCSC.hg19
 genome
 ```
+
+4. 查看染色体上序列信息
 ```{r}
 chr1 <- genome$chr1
 afI <- alphabetFrequency(chr1)
 afI
+```
+
+5. 查找具体位点的基因信息
+```{r}
+chr <- "chr1"
+pos <- 50
+offset <- 10
+# seq <-getSeq(Hsapiens, chr, start = (pos), end = (pos + offset))
+seq <- getSeq(Hsapiens, end=20)
+show(seq)
+show(alphabetFrequency(seq))
 ```
 
