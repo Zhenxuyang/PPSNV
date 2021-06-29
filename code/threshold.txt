@@ -1,0 +1,4 @@
+-----predictSNPSelected-----
+-----HumVarFiltered-----
+-----SwissVarSelected-----
+-----VariBenchSelected-----

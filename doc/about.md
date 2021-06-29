@@ -46,3 +46,14 @@ CADD使用的特征
 PolyPhen2使用的特征
 ![img](https://github.com/Zhenxuyang/MutationScore/blob/main/doc/img/features_polyp2.png)
 
+
+Polyphen2_HDIV_score: 孟德尔遗传病相关
+Polyphen2_HVAR_score: 复杂疾病和罕见变异
+LRT_score： 
+MutationTaster_score
+MutationAssessor_score
+FATHMM_score
+RadialSVM_score
+LR_score
+VEST3_score
+CADD_phred

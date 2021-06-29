@@ -1,0 +1,21 @@
+%0 Journal Article
+%A Rentzsch, Philipp
+%A Witten, Daniela
+%A Cooper, Gregory M
+%A Shendure, Jay
+%A Kircher, Martin
+%T CADD: predicting the deleteriousness of variants throughout the human genome
+%B Nucleic Acids Research
+%D 2018
+%R 10.1093/nar/gky1016
+%J Nucleic Acids Research
+%V 47
+%N D1
+%P D886-D894
+%@ 0305-1048
+%X Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders. CADD is an integrative annotation built from more than 60 genomic features, and can score human single nucleotide variants and short insertion and deletions anywhere in the reference assembly. CADD uses a machine learning model trained on a binary distinction between simulated de novo variants and variants that have arisen and become fixed in human populations since the split between humans and chimpanzees; the former are free of selective pressure and may thus include both neutral and deleterious alleles, while the latter are overwhelmingly neutral (or, at most, weakly deleterious) by virtue of having survived millions of years of purifying selection. Here we review the latest updates to CADD, including the most recent version, 1.4, which supports the human genome build GRCh38. We also present updates to our website that include simplified variant lookup, extended documentation, an Application Program Interface and improved mechanisms for integrating CADD scores into other tools or applications. CADD scores, software and documentation are available at https://cadd.gs.washington.edu.
+%[ 6/29/2021
+%U https://doi.org/10.1093/nar/gky1016
+
+
+
