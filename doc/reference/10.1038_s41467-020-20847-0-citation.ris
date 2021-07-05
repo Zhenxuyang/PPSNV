@@ -1,0 +1,22 @@
+TY  - JOUR
+AU  - Qi, Hongjian
+AU  - Zhang, Haicang
+AU  - Zhao, Yige
+AU  - Chen, Chen
+AU  - Long, John J.
+AU  - Chung, Wendy K.
+AU  - Guan, Yongtao
+AU  - Shen, Yufeng
+PY  - 2021
+DA  - 2021/01/21
+TI  - MVP predicts the pathogenicity of missense variants by deep learning
+JO  - Nature Communications
+SP  - 510
+VL  - 12
+IS  - 1
+AB  - Accurate pathogenicity prediction of missense variants is critically important in genetic studies and clinical diagnosis. Previously published prediction methods have facilitated the interpretation of missense variants but have limited performance. Here, we describe MVP (Missense Variant Pathogenicity prediction), a new prediction method that uses deep residual network to leverage large training data sets and many correlated predictors. We train the model separately in genes that are intolerant of loss of function variants and the ones that are tolerant in order to take account of potentially different genetic effect size and mode of action. We compile cancer mutation hotspots and de novo variants from developmental disorders for benchmarking. Overall, MVP achieves better performance in prioritizing pathogenic missense variants than previous methods, especially in genes tolerant of loss of function variants. Finally, using MVP, we estimate that de novo coding variants contribute to 7.8% of isolated congenital heart disease, nearly doubling previous estimates.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-020-20847-0
+DO  - 10.1038/s41467-020-20847-0
+ID  - Qi2021
+ER  - 

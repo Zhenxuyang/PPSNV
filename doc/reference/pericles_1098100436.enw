@@ -1,0 +1,28 @@
+%0 Journal Article
+%A Grimm, Dominik G.
+%A Azencott, Chloé-Agathe
+%A Aicheler, Fabian
+%A Gieraths, Udo
+%A MacArthur, Daniel G.
+%A Samocha, Kaitlin E.
+%A Cooper, David N.
+%A Stenson, Peter D.
+%A Daly, Mark J.
+%A Smoller, Jordan W.
+%A Duncan, Laramie E.
+%A Borgwardt, Karsten M.
+
+%T The Evaluation of Tools Used to Predict the Impact of Missense Variants Is Hindered by Two Types of Circularity
+%D 2015
+%J Human Mutation
+%P 513-523
+%V 36
+%N 5
+%@ 1059-7794
+%R https://doi.org/10.1002/humu.22768
+%U https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.22768
+%X ABSTRACT Prioritizing missense variants for further experimental investigation is a key challenge in current sequencing studies for exploring complex and Mendelian diseases. A large number of in silico tools have been employed for the task of pathogenicity prediction, including PolyPhen-2, SIFT, FatHMM, MutationTaster-2, MutationAssessor, Combined Annotation Dependent Depletion, LRT, phyloP, and GERP++, as well as optimized methods of combining tool scores, such as Condel and Logit. Due to the wealth of these methods, an important practical question to answer is which of these tools generalize best, that is, correctly predict the pathogenic character of new variants. We here demonstrate in a study of 10 tools on five datasets that such a comparative evaluation of these tools is hindered by two types of circularity: they arise due to (1) the same variants or (2) different variants from the same protein occurring both in the datasets used for training and for evaluation of these tools, which may lead to overly optimistic results. We show that comparative evaluations of predictors that do not address these types of circularity may erroneously conclude that circularity confounded tools are most accurate among all tools, and may even outperform optimized combinations of tools.
+
+
+
+
