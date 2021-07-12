@@ -4,7 +4,7 @@ PPSNV: A novel predictor for pathogenicity of nonsynonymous SNV based on ensembl
 
 ## Overview
 
-PPSNV is a pathogenicity predictor for nonsynonymous single nucleotide variant (SNV) based on ensemble learning. It utilized 14 features of SNV in total including 10 pathogenicity score of existing predictors, which serve as input of a Gradient Boosting Decision Tree (GBDT) classifier. We tested it with two indepentdent test datasets and results showed satisfying performance of PPSNV.
+PPSNV is a pathogenicity predictor for nonsynonymous single nucleotide variant (SNV) based on ensemble learning. It utilized 14 features of SNV in total including 10 pathogenicity score of existing predictors, which serve as input of a Gradient Boosting Decision Tree (GBDT) classifier. We tested it with two indepentdent test datasets and the results showed satisfying performance of PPSNV.
 
 ## The framework of PPSNV
 
